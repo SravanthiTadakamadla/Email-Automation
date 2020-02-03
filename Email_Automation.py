@@ -37,6 +37,7 @@ msg.add_alternative("""\
 </html>
  """, subtype='html')
 
+
 # Provision to add file as email content
 msg.add_alternative(files, subtype='html')
 
